@@ -15,7 +15,7 @@ const Cards = () => {
     return (
         <div className="w-4/5 mx-auto my-10">
             
-             <div className="grid grid-cols-4 gap-5">
+             <div className="grid lg:grid-cols-4 gap-5">
                 {
                     cards.map( (card,idx)=> <Card key={idx} card={card}></Card>)
                 }
