@@ -1,0 +1,123 @@
+[
+    {
+      "picture": "https://i.ibb.co/zJsWLV7/jared-rice-NTy-Bbu66-SI-unsplash.jpg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "bg-[#0052ff33]",
+      "card_bg": "bg-[#0052ff26]",
+      "text_button_bg": "text-[#0052FF]",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/QJvk0mn/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "bg-[#ff444a33]",
+      "card_bg":"bg-[#ff444a26]",
+      "text_button_bg": "text-[#FF444A]",
+      "description": "Suspendisse at sapien non quam fringilla imperdiet.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/n745JZZ/jyotirmoy-gupta-ZZt-Su-Dplxs-I-unsplash.jpg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "bg-[#79c23f33]",
+      "card_bg": "bg-[#79c23f26]",
+      "text_button_bg": "text-[#79C23F]",
+      "description": "Pellentesque ultrices justo vel venenatis vestibulum.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/3kY3Xmz/timothy-barlin-n-Fc2-IRUHr-M-unsplash.jpg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "bg-[#f8714733]",
+      "card_bg": "bg-[#f8714726]",
+      "text_button_bg":"text-[#F87147]",
+      "description": "Aenean euismod mi et justo tristique, vel euismod lectus varius.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/YPQG6GK/bailey-torres-k-RXb0r-Fo-XMc-unsplash.jpg",
+      "title": "Diverse Culinary Delights",
+      "category": "Food",
+      "category_bg": "bg-[#f8714733]",
+      "card_bg": "bg-[#f8714726]",
+      "text_button_bg": "text-[#F87147]",
+      "description": "Vestibulum at sem id nulla vulputate mattis.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/c6zjKh0/jonathan-borba-lr-QPTQs7n-QQ-unsplash.jpg",
+      "title": "Better Health, Everyone Included",
+      "category": "Health",
+      "category_bg": "bg-[#0052ff33]",
+      "card_bg": "bg-[#0052ff26]",
+      "text_button_bg": "text-[#0052FF]",
+      "description": "Sed nec sem non justo facilisis dictum.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/nkw3wML/jessica-anderson-xsnh-RWcl-NHw-unsplash.jpg",
+      "title": "Clothing Accessible to Everyone",
+      "category": "Clothing",
+      "category_bg": "bg-[#79c23f33]",
+      "card_bg": "bg-[#79c23f26]",
+      "text_button_bg": "text-[#79C23F]",
+      "description": "Duis nec tellus a neque cursus consequat in ut odio.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/FY6dyTZ/alexandre-van-thuan-mr9-Foutt-LGY-unsplash.jpg",
+      "title": "Accessible Learning for All",
+      "category": "Education",
+      "category_bg": "bg-[#ff444a33]",
+      "card_bg": "bg-[#ff444a26]",
+      "text_button_bg": "text-[#FF444A]",
+      "description": "Mauris nec tortor vel nulla bibendum faucibus.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/9sfbhFF/sharon-christina-rorvik-CLy-L-YVs-WI8-unsplash.jpg",
+      "title": "Universal Apparel Selection",
+      "category": "Clothing",
+      "category_bg": "bg-[#79c23f33]",
+      "card_bg": "bg-[#79c23f26]",
+      "text_button_bg": "text-[#79C23F]",
+      "description": "Nulla facilisi. In vel leo id libero congue viverra.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/kqX66NY/national-cancer-institute-N-aihp118p8-unsplash.jpg",
+      "title": "Education Equality Initiative",
+      "category": "Education",
+      "category_bg": "bg-[#ff444a33]",
+      "card_bg": "bg-[#ff444a26]",
+      "text_button_bg": "text-[#FF444A]",
+      "description": "Praesent id risus quis risus mattis finibus eu et quam.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/CHkLDM4/brooke-lark-Hl-Ncigv-Ui4-Q-unsplash.jpg",
+      "title": "Inclusive Global Cuisine",
+      "category": "Food",
+      "category_bg": "bg-[#f8714733]",
+      "card_bg": "bg-[#f8714726]",
+      "text_button_bg": "text-[#F87147]",
+      "description": "Fusce ac metus at nulla bibendum consectetur in et quam.",
+      "price": 290.00
+    },
+    {
+      "picture": "https://i.ibb.co/LtCTvzB/olga-nayda-3-TQ8-I-s-R9a8-unsplash.jpg",
+      "title": "Universal Wellness Initiative",
+      "category": "Health",
+      "category_bg": "bg-[#0052ff33]",
+      "card_bg": "bg-[#0052ff26]",
+      "text_button_bg": "text-[#0052FF]",
+      "description": "Curabitur auctor tortor nec est auctor, vel efficitur tellus gravida.",
+      "price": 290.00
+    }
+  ]
+  
