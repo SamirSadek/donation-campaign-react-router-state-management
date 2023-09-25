@@ -25,14 +25,14 @@ const DonationDetails = () => {
             alt="Shoes"
           />
           <div className="w-full ">
-            <button onClick={notify} className="btn  absolute bottom-3 left-3">Donate ${donation.price}</button>
+            <button onClick={notify} style={{backgroundColor:donation.text_button_bg}} className="btn border-none text-white absolute bottom-3 left-3">Donate ${donation.price}</button>
           </div>
         </figure>
         
       </div>
       <div className="mt-9">
-        <h1>{donation.title}</h1>
-        <p>{donation.description}</p>
+        <h1 className="text-[40px] font-bold my-4">{donation.title}</h1>
+        <p className="text-base font-normal">{donation.description}</p>
       </div>
       <ToastContainer />
     </div>

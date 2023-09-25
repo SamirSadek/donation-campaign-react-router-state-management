@@ -18,7 +18,7 @@ const Donation = () => {
     },[donations])
     return (
        
-        <div className="w-4/5 mx-auto">
+        <div className="w-4/5 mx-auto mb-10">
             <div className="grid md:grid-cols-2 gap-4">
                 
                 {
@@ -26,7 +26,7 @@ const Donation = () => {
                 }
             </div>
             <div className={`${datalength === donates.length && 'hidden'} card-actions justify-center`}>
-            <button onClick={()=>setDatalength(donates.length)} className="btn my-5 bg-orange-300 hover:bg-orange-500 border-orange-800 text-black">
+            <button onClick={()=>setDatalength(donates.length)} className="btn my-5 bg-[#009444] border-none hover:bg-[#5f8f6e] text-white">
               See All
             </button>
           </div>
