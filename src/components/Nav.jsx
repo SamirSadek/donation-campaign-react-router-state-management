@@ -11,10 +11,10 @@ const Nav = () => {
           <Link to={'/'}>
             Home
           </Link>
-          <Link to={'/'}>
+          <Link to={'/donation'}>
           Donation
           </Link>
-          <Link to={'/'}>
+          <Link to={'/statistics'}>
           Statistics
           </Link>
           
