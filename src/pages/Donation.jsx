@@ -25,7 +25,7 @@ const Donation = () => {
                     donates.slice(0, datalength).map(donate => <DonationCard key={donate.id} donate={donate}></DonationCard>)
                 }
             </div>
-            <div className={`${datalength === donates.length && 'hidden'} card-actions justify-center`}>
+            <div className={`${ donates.length <=4 ? 'hidden':''} card-actions justify-center`}>
             <button onClick={()=>setDatalength(donates.length)} className="btn my-5 bg-[#009444] border-none hover:bg-[#5f8f6e] text-white">
               See All
             </button>
