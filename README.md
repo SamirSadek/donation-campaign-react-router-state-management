@@ -1,8 +1,10 @@
-# React + Vite
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---Detailed Campaign Information:
+The project allows users to access comprehensive details about each donation campaign by clicking on the campaign cards. This feature enhances transparency and helps potential donors make informed decisions about which campaign to support.
 
-Currently, two official plugins are available:
+---Donation Tracking and History:
+The project includes a donation feature that enables users to make contributions to their chosen campaigns. The system tracks and stores donation information, creating a history of users' contributions. This feature not only facilitates donations but also provides transparency on the progress of each campaign.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---Visualized Donation Statistics:
+The project offers a statistics page that presents donation data in a visually appealing and informative manner, such as through pie charts. This feature allows users to see the collective impact of their contributions and provides a clear overview of the distribution of donations across different campaigns 

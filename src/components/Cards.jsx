@@ -30,7 +30,7 @@ const Cards = ({ searchIN }) => {
     return (
         <div className="w-4/5 mx-auto my-10">
             
-             <div className="grid lg:grid-cols-4 gap-5">
+             <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5">
                 {
                     filteredCards.map( (card,idx)=> <Card key={idx} card={card}></Card>)
                 }
