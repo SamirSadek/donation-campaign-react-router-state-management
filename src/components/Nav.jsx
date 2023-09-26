@@ -1,22 +1,24 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="w-4/5 mx-auto navbar p-5">
-      <div className="flex-1">
-        <img className="p-4" src="../Logo.png" alt="" />
-      </div>
+    <div className="w-4/5 mx-auto md:flex justify-between items-center p-5">
       <div className="">
-        <ul className="menu menu-horizontal px-1 gap-3">
-          <Link to={'/'}>
+      <NavLink to={'/'}>
+        <img className="p-4" src="../Logo.png" alt="" />
+        </NavLink>
+      </div>
+      <div className=" text-center">
+        <ul className="menu menu-horizontal px-1 gap-5">
+          <NavLink to={'/'}>
             Home
-          </Link>
-          <Link to={'/donation'}>
+          </NavLink>
+          <NavLink to={'/donation'}>
           Donation
-          </Link>
-          <Link to={'/statistics'}>
+          </NavLink>
+          <NavLink to={'/statistics'}>
           Statistics
-          </Link>
+          </NavLink>
           
         </ul>
       </div>

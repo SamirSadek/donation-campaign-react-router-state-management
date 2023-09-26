@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
+import { PieChart, Pie, Cell, Legend, Tooltip, LabelList } from 'recharts';
 import { getStoredDonation } from '../utility/localstorage';
 
 const Statistics = () => {
@@ -48,7 +48,7 @@ const Statistics = () => {
             data={data}
             dataKey="value"
             nameKey="name"
-            values="value"
+            
             cx="50%"
             cy="50%"
             outerRadius={150}
@@ -57,6 +57,7 @@ const Statistics = () => {
             {data.map((entry, index) => (
               <Cell key={index} fill={COLORS[index % COLORS.length]} />
             ))}
+            <LabelList dataKey="value" position="inside"></LabelList>
           </Pie>
           <Tooltip />
           <Legend />

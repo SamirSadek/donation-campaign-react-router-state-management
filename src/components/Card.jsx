@@ -5,7 +5,7 @@ const Card = ({ card }) => {
     card;
   console.log(card_bg);
   return (
-    <Link to={`/donation/${id}`}>
+    <Link to={`/donations/${id}`}>
       <div style={{backgroundColor:card_bg}} className="rounded-lg">
         <figure>
           <img className="w-full rounded-t-lg  h-48 rounded" src={picture} alt="img!" />
